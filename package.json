@@ -1,0 +1,48 @@
+{
+  "name": "session-sync",
+  "version": "0.1.0",
+  "description": "Continuous cross-agent session sync for Claude Code and Codex",
+  "type": "module",
+  "bin": {
+    "session-sync": "./dist/bin/cli.js",
+    "session-sync-hook": "./dist/bin/hook.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint src tests",
+    "typecheck": "tsc --noEmit",
+    "dev:hook": "tsx src/bin/hook.ts",
+    "dev:cli": "tsx src/bin/cli.ts"
+  },
+  "dependencies": {
+    "@npow/interchange-core": "^0.1.11",
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "@vitest/coverage-v8": "^2.0.0",
+    "eslint": "^9.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npow/session-sync"
+  },
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
