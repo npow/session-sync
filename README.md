@@ -3,7 +3,7 @@
 [![CI](https://github.com/npow/session-sync/actions/workflows/ci.yml/badge.svg)](https://github.com/npow/session-sync/actions/workflows/ci.yml)
 [![npm](https://img.shields.io/npm/v/session-sync)](https://www.npmjs.com/package/session-sync)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
-[![Node.js 22+](https://img.shields.io/badge/node-22+-blue.svg)](https://nodejs.org/)
+[![Node.js 22+](https://img.shields.io/badge/node-22+-blue.svg)](https://nodejs.org/) [![Docs](https://img.shields.io/badge/docs-mintlify-18a34a?style=flat-square)](https://mintlify.com/npow/session-sync)
 
 Switch from Claude Code to Codex or any AI coding agent without losing your session.
 
